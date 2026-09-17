@@ -9,7 +9,10 @@ in
     ../../../common/pc/ssd
     ../../../common/cpu/intel/alder-lake
     ./camera.nix
+    ./firmware.nix
+    ./input.nix
     ./keyd.nix
+    ./sensors.nix
   ];
 
   environment.systemPackages = [ alsa-ucm-conf-cros ];
