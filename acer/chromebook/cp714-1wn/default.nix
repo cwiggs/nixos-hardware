@@ -8,6 +8,7 @@ in
     ../../../common/pc/laptop
     ../../../common/pc/ssd
     ../../../common/cpu/intel/alder-lake
+    ./camera.nix
     ./keyd.nix
   ];
 
